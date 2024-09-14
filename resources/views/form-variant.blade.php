@@ -3,11 +3,11 @@
     <main id="main" class="main">
 
         <div class="pagetitle">
-            <h1>Form Variant</h1>
+            <h1>Campaign</h1>
             <nav style="--bs-breadcrumb-divider: '|';">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active">Form Variant</li>
+                    <li class="breadcrumb-item active">Campaign</li>
                 </ol>
             </nav>
         </div><!-- End Page Title -->
@@ -26,36 +26,24 @@
                                     <!-- Multi Columns Form -->
                                     <form class="row g-3 pt-3">
                                         <div class="col-md-12">
-                                            <label for="inputName5" class="form-label">Your Name</label>
-                                            <input type="text" class="form-control" id="inputName5">
+                                            <label for="inputName5" class="form-label">Nama Eksperimen</label>
+                                            <input type="text" class="form-control" id="nama_eksperimen">
                                         </div>
                                         <div class="col-md-6">
-                                            <label for="inputEmail5" class="form-label">Email</label>
-                                            <input type="email" class="form-control" id="inputEmail5">
+                                            <label for="inputEmail5" class="form-label">URL</label>
+                                            <input type="email" class="form-control" id="url">
                                         </div>
                                         <div class="col-md-6">
-                                            <label for="inputPassword5" class="form-label">Bobot</label>
+                                            <label for="inputPassword5" class="form-label">Variant</label>
                                             <div class="input-group">
-                                                <input type="text" class="form-control" aria-label="Bobot"
-                                                    aria-describedby="basic-addon1">
-                                                <span class="input-group-text" id="basic-addon1">%</span>
+                                                <input type="text" class="form-control" aria-label="Variant"
+                                                    aria-describedby="basic-addon1" id="">
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
-                                            <label for="inputEmail5" class="form-label">Email</label>
-                                            <input type="email" class="form-control" id="inputEmail5">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <label for="inputPassword5" class="form-label">Bobot</label>
-                                            <div class="input-group">
-                                                <input type="text" class="form-control" aria-label="Bobot"
-                                                    aria-describedby="basic-addon1">
-                                                <span class="input-group-text" id="basic-addon1">%</span>
-                                            </div>
-                                        </div>
+
                                         <div class="d-grid gap-2 mt-3">
-                                            <button class="btn btn-primary bgc-primary" type="button">Block Button <i
-                                                    class="bi bi-plus-circle-fill"></i></button>
+                                            <button class="btn btn-primary bgc-primary" type="button">Add Variant <i
+                                                    class="bi bi-plus-circle-fill" id="add-variant"></i></button>
                                         </div>
                                     </form><!-- End Multi Columns Form -->
 

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Dashboard - NiceAdmin Bootstrap Template</title>
+    <title>Dashboard - SplitLab</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -48,7 +48,7 @@
         <div class="d-flex align-items-center justify-content-between">
             <a href="/" class="logo d-flex align-items-center">
                 <img src="{{ URL::asset('assets/img/logo-sc.webp') }}" alt="">
-                <span class="d-none d-lg-block">Split Champ</span>
+                <span class="d-none d-lg-block">Split Lab</span>
             </a>
             <i class="bi bi-list toggle-sidebar-btn"></i>
         </div><!-- End Logo -->
@@ -128,15 +128,27 @@
             </li><!-- End Dashboard Nav -->
 
             <li class="nav-heading">Pages</li>
-
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="/create-experiment">
+                    <i class="bi bi-person"></i>
+                    <span>Create Experiment</span>
+                </a>
+            </li>
             <li class="nav-item">
                 <a class="nav-link collapsed" href="/form-variant">
                     <i class="bi bi-person"></i>
                     <span>Form Variant</span>
                 </a>
-            </li><!-- End Profile Page Nav -->
-
+            </li>
             <li class="nav-item">
+                <a class="nav-link collapsed" href="/form-variant">
+                    <i class="bi bi-person"></i>
+                    <span>Generate Code</span>
+                </a>
+            </li>
+            <!-- End Profile Page Nav -->
+
+            {{-- <li class="nav-item">
                 <a class="nav-link collapsed" href="/login">
                     <i class="bi bi-box-arrow-in-right"></i>
                     <span>Login</span>
@@ -148,7 +160,7 @@
                     <i class="bi bi-card-list"></i>
                     <span>Register</span>
                 </a>
-            </li><!-- End Register Page Nav -->
+            </li><!-- End Register Page Nav --> --}}
 
         </ul>
 

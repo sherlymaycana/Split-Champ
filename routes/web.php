@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\experimentController;
 use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -25,3 +27,4 @@ Route::get('/login', function () {
 Route::get('/register', function () {
     return view('register');
 });
+Route::get('/create-experiment', [experimentController::class, 'index']);
